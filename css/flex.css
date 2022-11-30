@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.menu{
+	background-color: #dbd8d0;
+	margin-top: 20px;
+	border-top: 2px solid #403eb3;
+}
+.container{
+	margin: auto;
+	width: 90%;
+}
+
+.icon{
+	margin-top: 9px;
+    margin-right: 40%;
+}
+.item{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+.menu2{
+  justify-content: space-between;
+}
+button{
+	background-color: #03f8fc;
+	color: #ffff;
+	padding: 10px;
+	border: solid #03f8fc;
+	border-radius: 5px;
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: hotpink;
+}
+nav{
+	display: inline-block;
+	padding: 5px;
+}
